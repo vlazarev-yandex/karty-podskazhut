@@ -20,3 +20,9 @@ li,
 figure {
   margin: 0;
 }
+
+.page {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--main-font);
+}
