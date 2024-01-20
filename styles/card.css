@@ -1,0 +1,46 @@
+.content__card {
+    border: 1px solid var(--text-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-block-start: 7%;
+    width: 100%;
+    aspect-ratio: 4/3;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0px;
+}
+
+.content__card-title {
+    text-align: center;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 90%; /* 54px */
+
+    position: relative;
+    width: fit-content;
+}
+
+.content__card-subtitle {
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.colored-text::after {
+    content: "";
+    position: absolute;
+    right: -0.2ch;
+    bottom: 10px;
+    
+    background-color: var(--accent-color);
+    height: 15px;
+    width: 7.5ch;
+    z-index: -1;
+}

@@ -4,9 +4,13 @@
   box-sizing: border-box;
 }
 
-.page {
-  min-inline-size: 360px;
-  margin: 0;
+:root {
+  --bg-color: #F3EFEC; 
+  --text-color: #312A4E; 
+  --accent-color: #FFAB6B; 
+  
+  --main-font: 'Raleway';
+  --accent-font: 'STIX Two Text'; 
 }
 
 p,
@@ -25,4 +29,7 @@ figure {
   background-color: var(--bg-color);
   color: var(--text-color);
   font-family: var(--main-font);
+
+  min-inline-size: 360px;
+  margin: 0;
 }

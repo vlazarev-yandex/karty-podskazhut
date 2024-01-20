@@ -3,6 +3,7 @@
 }
 
 .content__title {
+
     text-align: center;
     font-family: "STIX Two Text";
     font-size: 30px;
@@ -14,7 +15,7 @@
 }
 
 .content__text-block {
-    border: red solid 1px;
+    
 }
 
 .content__paragraph {
@@ -22,8 +23,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-
-    padding-block-end: 1.5em;
 }
 
 .content__text-block > .content__paragraph:not(:last-child) {
@@ -70,4 +69,16 @@
 
 .content__list-element:not(:last-child) {
     margin-block-end: 10px;
+}
+
+.content__text-block_type_first-lettered > .content__paragraph:is(:first-child)::first-letter {
+    display: inline-block;
+    background-color: var(--accent-color);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 4px;
+    padding: 0 4px 0 4px;
+    margin-right: 4px;
 }

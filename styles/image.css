@@ -1,0 +1,29 @@
+.content__figure {
+    width: calc(100% + 10vi);
+    /* ширина контейнера + 2 боковых отступа, чтобы картинка занимала всю ширину экрана */
+    
+    position: relative;
+    left: -5vi;
+    margin: 7% 0;
+
+}
+
+.content__picture-caption {
+    padding: 20px 5vi;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    border-bottom: 1px solid #312A4E;
+}
+
+.content__picture {
+    width: 100%;
+}
