@@ -11,43 +11,32 @@
     <link rel="apple-touch-icon" href="./images/favicon.png" />
 
     <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href="./styles/heading.css" />
-    <link rel="stylesheet" href="./styles/content-section.css" />
-    <link rel="stylesheet" href="./styles/image.css" />
-    <link rel="stylesheet" href="./styles/card.css" />
-    <link rel="stylesheet" href="./styles/header.css" />
-    <link rel="stylesheet" href="./styles/buttons.css" />
-    <link rel="stylesheet" href="./styles/footer.css" />
-    <link rel="stylesheet" href="./styles/content-list.css" />
   </head>
   <body class="page theme_dark">
     <header class="header">
       <h1 class="heading header__title content-section">Карты подскажут</h1>
 
-      <section class="header__menu">
-        <a href="#" class="header__logo">
+      <div class="header__menu">
+        .content__paragraph link {
+        <a href="#" class="header__logo link">
           <svg xmlns="http://www.w3.org/2000/svg" width="135" height="25">
             <use href="./images/logo.svg#logo"></use>
           </svg>
         </a>
 
-        <ul class="header__theme-toggler">
-          <li class="header__menu-item">
-            <form>
+        <nav>
+          <ul class="header__theme-toggler">
+            <li class="header__menu-item">
               <button
-                type="radio"
                 value="Тёмная"
                 tabindex="0"
                 class="header__theme-button header__theme-button_type_dark"
               >
                 Тёмная
               </button>
-            </form>
-          </li>
-          <li class="header__menu-item">
-            <form>
+            </li>
+            <li class="header__menu-item">
               <button
-                type="radio"
                 value="Светлая"
                 tabindex="0"
                 class="header__theme-button header__theme-button_type_light header__theme-button_is-active"
@@ -55,10 +44,10 @@
               >
                 Светлая
               </button>
-            </form>
-          </li>
-        </ul>
-      </section>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <main class="content content-section">
@@ -171,12 +160,14 @@
           <a
             href="https://apps.apple.com/us/app/oblique-strategies-se/id1104927011"
             target="_blank"
+            class="link"
             >iOS</a
           >
           и
           <a
             href="https://play.google.com/store/apps/details?id=com.monoloco.obliquestrategies&hl=en_US&gl=US&pli=1"
             target="_blank"
+            class="link"
             >Android</a
           >.
         </p>
@@ -200,10 +191,9 @@
         <li class="content__list-element">Coldplay;</li>
         <li class="content__list-element">MGMT.</li>
       </ul>
-      <div class="content__text-block"></div>
     </main>
     <footer class="footer">
-      <span class="footer__copyright">VЁRSTKA</span>
+      <p class="footer__copyright">VЁRSTKA</p>
     </footer>
 
     <!-- Раскомментируйте строчку ниже, когда вёрстка будет готова. Если вы назвали все классы. как нужно, переключатель темы будет работать -->
