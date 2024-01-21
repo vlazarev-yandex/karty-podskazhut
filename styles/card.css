@@ -33,6 +33,10 @@
     width: fit-content;
 }
 
+.colored-text {
+    position: relative;
+}
+
 .colored-text::after {
     content: "";
     position: absolute;
