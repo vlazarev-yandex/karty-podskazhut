@@ -6,11 +6,3 @@
     font-weight: 600;
     line-height: 90%; /* 27px */
 }
-
-.header__title {
-    font-size: clamp(3.75rem, 2.5rem + 5.5556vw, 7.5rem);
-}
-
-.header {
-    padding: 10% 0 0 0;
-}

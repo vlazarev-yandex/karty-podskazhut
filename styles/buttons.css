@@ -1,0 +1,14 @@
+.header__theme-toggler {
+
+}
+
+.header__theme-button {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 104%; /* 18.72px */
+
+    border: none;
+
+    cursor: pointer;
+}

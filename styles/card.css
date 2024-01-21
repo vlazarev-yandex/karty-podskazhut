@@ -14,6 +14,14 @@
     gap: 0px;
 }
 
+.content__card-subtitle {
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 .content__card-title {
     text-align: center;
     font-size: 60px;
@@ -23,14 +31,6 @@
 
     position: relative;
     width: fit-content;
-}
-
-.content__card-subtitle {
-    text-align: center;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .colored-text::after {
