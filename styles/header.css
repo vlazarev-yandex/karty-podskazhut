@@ -1,31 +1,31 @@
 .header {
-    padding: 10% 0 0 0;
+  padding: 10% 0 0 0;
 }
 
 .header__title {
-    font-size: clamp(3.75rem, 2.5rem + 5.5556vw, 7.5rem);
-    padding-bottom: 40px;
-    padding-top: 0;
+  font-size: clamp(3.75rem, 2.5rem + 5.5556vw, 7.5rem);
+  padding-bottom: 40px;
+  padding-top: 0;
 }
 
 .header__logo {
-    color: currentColor;
+  color: currentColor;
 }
 
 .header__logo:visited {
-    color: currentColor;
+  color: currentColor;
 }
 
 .header__menu {
-    border-top: 1px solid var(--text-color);
-    border-bottom: 1px solid var(--text-color);
-    padding: 20px var(--main-padding);
+  border-top: 1px solid var(--text-color);
+  border-bottom: 1px solid var(--text-color);
+  padding: 20px var(--main-padding);
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .header__menu-item {
-    margin-top: 4px;
+  margin-top: 4px;
 }

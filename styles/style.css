@@ -6,15 +6,15 @@
 }
 
 :root {
-  --bg-color: #F3EFEC; 
-  --text-color: #312A4E;
-  --accent-color: #FFAB6B; 
-  --secondary-color: rgba(49, 42, 78, 0.50);
+  --bg-color: #f3efec;
+  --text-color: #312a4e;
+  --accent-color: #ffab6b;
+  --secondary-color: rgba(49, 42, 78, 0.5);
   --accent-background-color: transparent;
   --marker-image: url(../images/marker-light.svg);
-  
-  --main-font: 'Raleway';
-  --accent-font: 'STIX Two Text'; 
+
+  --main-font: "Raleway";
+  --accent-font: "STIX Two Text";
 
   --main-font-size: 18px;
   --subtitle-font-size: 30px;
@@ -45,11 +45,11 @@ figure {
 }
 
 .theme_dark {
-  --bg-color: #171717;; 
-  --text-color: #B3B3B3; 
-  --accent-color: transparent; 
-  --secondary-color: rgba(179, 179, 179, 0.50);
-  --accent-background-color: #B3B3B3;
+  --bg-color: #171717;
+  --text-color: #b3b3b3;
+  --accent-color: transparent;
+  --secondary-color: rgba(179, 179, 179, 0.5);
+  --accent-background-color: #b3b3b3;
   --marker-image: url(../images/marker-dark.svg);
 }
 
@@ -108,14 +108,14 @@ a:focus-visible {
   line-height: 104%;
 }
 
-.header__theme-button_type_light:active::after, 
+.header__theme-button_type_light:active::after,
 .header__theme-button_is-active.header__theme-button_type_light::after {
   content: "";
 
   position: absolute;
   right: 0;
   top: 17px;
-  
+
   background-color: var(--accent-color);
 
   height: 6px;
@@ -123,14 +123,14 @@ a:focus-visible {
   z-index: -1;
 }
 
-.header__theme-button_type_dark:active::after, 
+.header__theme-button_type_dark:active::after,
 .header__theme-button_is-active.header__theme-button_type_dark::after {
   content: "";
 
   position: absolute;
   left: 0;
   top: 17px;
-  
+
   background: url(../images/pattern.svg) repeat;
   background-color: var(--accent-color);
   height: 6px;
@@ -195,7 +195,7 @@ a:focus-visible {
   position: absolute;
   right: -0.2ch;
   bottom: 10px;
-  
+
   background-color: var(--accent-color);
   height: 15px;
   width: 7.5ch;
@@ -218,7 +218,6 @@ a:focus-visible {
 }
 
 .content__list-element:before {
-
   content: "";
   display: block;
   float: left;
@@ -228,7 +227,7 @@ a:focus-visible {
   transform: rotate(90deg);
   flex-shrink: 0;
 
-  background-image: var(--marker-image); 
+  background-image: var(--marker-image);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 50%;
@@ -247,7 +246,6 @@ a:focus-visible {
 }
 
 .content__title {
-
   text-align: center;
   font-family: "STIX Two Text";
   font-size: var(--subtitle-font-size);
@@ -283,17 +281,18 @@ a:focus-visible {
   line-height: 200%; /* 36px */
 }
 
-.content__text-block_type_first-lettered > .content__paragraph:is(:first-child)::first-letter {
+.content__text-block_type_first-lettered
+  > .content__paragraph:is(:first-child)::first-letter {
   background-color: var(--accent-color);
   border: var(--accent-background-color) 1px solid;
-  
+
   font-size: var(--subtitle-font-size);
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0;
   padding: 0 2px 0 2px;
-  margin-right: 3px;    
+  margin-right: 3px;
 }
 
 /* footer.css ----------------------------------- */
@@ -362,16 +361,15 @@ a:focus-visible {
 .content__figure {
   width: calc(100% + 10vi);
   /* ширина контейнера + 2 боковых отступа, чтобы картинка занимала всю ширину экрана */
-  
+
   position: relative;
   left: -5vi;
   margin: 7% 0;
-
 }
 
 .content__picture-caption {
   padding: 20px var(--main-padding);
-  
+
   display: flex;
   justify-content: center;
   align-items: center;
