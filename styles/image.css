@@ -21,7 +21,7 @@
     font-weight: 400;
     line-height: normal;
 
-    border-bottom: 1px solid #312A4E;
+    border-bottom: 1px solid var(--text-color);
 }
 
 .content__picture {

@@ -53,6 +53,7 @@
     top: 17px;
     
     background-color: var(--accent-color);
+
     height: 6px;
     width: 81px;
     z-index: -1;
@@ -66,6 +67,7 @@
     left: 0;
     top: 17px;
     
+    background: url(../images/pattern.svg) repeat;
     background-color: var(--accent-color);
     height: 6px;
     width: 81px;

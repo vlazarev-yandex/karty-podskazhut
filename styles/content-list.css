@@ -23,7 +23,7 @@
     transform: rotate(90deg);
     flex-shrink: 0;
 
-    background-image: url(../images/marker-light.svg);
+    background-image: var(--marker-image); 
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 50%;

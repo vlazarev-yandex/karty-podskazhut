@@ -41,12 +41,13 @@
 
 .content__text-block_type_first-lettered > .content__paragraph:is(:first-child)::first-letter {
     background-color: var(--accent-color);
+    border: var(--accent-background-color) 1px solid;
     
     font-size: var(--subtitle-font-size);
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    letter-spacing: 2px;
-    padding: 0 2px 0 3px;
-    margin-right: 2px;    
+    letter-spacing: 0;
+    padding: 0 2px 0 2px;
+    margin-right: 3px;    
 }

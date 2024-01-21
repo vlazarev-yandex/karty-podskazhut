@@ -9,6 +9,8 @@
   --text-color: #312A4E;
   --accent-color: #FFAB6B; 
   --secondary-color: rgba(49, 42, 78, 0.50);
+  --accent-background-color: transparent;
+  --marker-image: url(../images/marker-light.svg);
   
   --main-font: 'Raleway';
   --accent-font: 'STIX Two Text'; 
@@ -46,6 +48,8 @@ figure {
   --text-color: #B3B3B3; 
   --accent-color: transparent; 
   --secondary-color: rgba(179, 179, 179, 0.50);
+  --accent-background-color: #B3B3B3;
+  --marker-image: url(../images/marker-dark.svg);
 }
 
 a:hover {
