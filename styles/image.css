@@ -9,14 +9,14 @@
 }
 
 .content__picture-caption {
-    padding: 20px 5vi;
+    padding: 20px var(--main-padding);
     
     display: flex;
     justify-content: center;
     align-items: center;
 
     text-align: center;
-    font-size: 18px;
+    font-size: var(--main-font-size);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -26,4 +26,5 @@
 
 .content__picture {
     width: 100%;
+    margin-top: 2px;
 }

@@ -1,12 +1,12 @@
 .content-section {
-    padding: 5vi;
+    padding: 0 var(--main-padding);
 }
 
 .content__title {
 
     text-align: center;
     font-family: "STIX Two Text";
-    font-size: 30px;
+    font-size: var(--subtitle-font-size);
     font-style: normal;
     font-weight: 600;
     line-height: 90%; /* 27px */
@@ -19,7 +19,7 @@
 }
 
 .content__paragraph {
-    font-size: 18px;
+    font-size: var(--main-font-size);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -37,48 +37,20 @@
     width: 75%;
     margin: 0 auto 1.5em auto;
 
-    font-size: 18px;
+    font-size: var(--main-font-size);
     font-style: italic;
     font-weight: 400;
     line-height: 200%; /* 36px */
 }
 
-.content__list {
-    list-style: none;
-    margin-block-start: 0;
-    margin-block-end: 0;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
-
-.content__list-element:before {
-
-    content: "";
-    display: block;
-    float: left;
-
-    width: 15px;
-    height: 15px;
-
-    background-image: url(../images/marker-light.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 50%;
-}
-
-.content__list-element:not(:last-child) {
-    margin-block-end: 10px;
-}
-
 .content__text-block_type_first-lettered > .content__paragraph:is(:first-child)::first-letter {
-    display: inline-block;
     background-color: var(--accent-color);
-    font-size: 30px;
+    
+    font-size: var(--subtitle-font-size);
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    letter-spacing: 4px;
-    padding: 0 4px 0 4px;
-    margin-right: 4px;
+    letter-spacing: 2px;
+    padding: 0 2px 0 3px;
+    margin-right: 2px;    
 }

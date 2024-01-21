@@ -6,11 +6,18 @@
 
 :root {
   --bg-color: #F3EFEC; 
-  --text-color: #312A4E; 
+  --text-color: #312A4E;
   --accent-color: #FFAB6B; 
+  --secondary-color: rgba(49, 42, 78, 0.50);
   
   --main-font: 'Raleway';
   --accent-font: 'STIX Two Text'; 
+
+  --main-font-size: 18px;
+  --subtitle-font-size: 30px;
+  --title-font-size: 60px;
+
+  --main-padding: 5vi;
 }
 
 p,
@@ -32,4 +39,19 @@ figure {
 
   min-inline-size: 360px;
   margin: 0;
+}
+
+.theme_dark {
+  --bg-color: #171717;; 
+  --text-color: #B3B3B3; 
+  --accent-color: transparent; 
+  --secondary-color: rgba(179, 179, 179, 0.50);
+}
+
+a:hover {
+  background-color: 1px solid var(--secondary-color);
+}
+
+a:focus-visible {
+  outline: 1px solid var(--text-color);
 }

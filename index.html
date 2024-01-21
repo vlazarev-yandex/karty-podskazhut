@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="./styles/card.css" />
     <link rel="stylesheet" href="./styles/header.css" />
     <link rel="stylesheet" href="./styles/buttons.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/content-list.css" />
 
   </head>
   <body class="page theme_dark">
@@ -34,12 +36,38 @@
       </a>
       
       <ul class="header__theme-toggler">
-        <button class="header__theme-button header__theme-button_type_dark">Тёмная</button>
-        <button class="header__theme-button header__theme-button_type_light">Светлая</button>
+        <li class="header__menu-item">
+          <form>
+            <button 
+              type="radio" 
+              value="Тёмная" 
+              tabindex="0"
+              class="
+                header__theme-button 
+                header__theme-button_type_dark"
+                >Тёмная
+            </button>
+          </form>
+        </li>
+        <li class="header__menu-item">
+          <form>
+            <button 
+              type="radio" 
+              value="Светлая" 
+              tabindex="0"
+              class="
+                header__theme-button 
+                header__theme-button_type_light
+                header__theme-button_is-active"
+              disabled
+              >Светлая
+            </button>
+          </form>
+        </li>
       </ul>
     </section>
-
     </header>
+
     <main class="content content-section">
       <h2 class="heading content__title">
         Креативный подход к решению проблем
@@ -112,13 +140,13 @@
         </p>
 
         <blockquote class="content__blockquote">
-          Эти карты появились, потому что я оказывался в рабочих ситуациях (особенно в звукозаписывающих студиях), когда из-за паники быстро забывал, что кроме самых очевидных решений были и другие — косвенные. И часто именно такие неочевидные способы выдавали гораздо более интересные результаты, чем решения „в лоб“.
+          «Эти карты появились, потому что я оказывался в рабочих ситуациях (особенно в звукозаписывающих студиях), когда из-за паники быстро забывал, что кроме самых очевидных решений были и другие — косвенные. И часто именно такие неочевидные способы выдавали гораздо более интересные результаты, чем решения „в лоб“».
         </blockquote>
         <p class="content__paragraph">
           Таким образом, колода Ино поощряет нас видеть препятствия не как тупики, а как отправные точки для поиска более интересных решений.
         </p>
         <p class="content__paragraph">
-          И кстати, сейчас необязательно охотиться за редкими физическими колодами Oblique Strategies — тем более, что их моментально разбирают фанаты Ино. Есть довольно симпатичные веб-сайты с диджитал-эквивалентами карточек и приложения для <a href="https://apps.apple.com/us/app/oblique-strategies-se/id1104927011" target="_blank">iOS</a> и <a href="https://practicum.yandex.ru/learn/html-css/courses/e717995f-6b1a-4358-8179-b8ac7bd147b5/sprints/127331/topics/14d2166a-b9c9-4810-8bf6-c466502e29bc/lessons/814fbd86-4acf-44ba-9423-107bb00382ff/#:~:text=https%3A//play.google.com/store/apps/details%3Fid%3Dcom.monoloco.obliquestrategies%26hl%3Den_US%26gl%3DUS%26pli%3D1" target="_blank">Android</a>.
+          И кстати, сейчас необязательно охотиться за редкими физическими колодами Oblique Strategies — тем более, что их моментально разбирают фанаты Ино. Есть довольно симпатичные веб-сайты с диджитал-эквивалентами карточек и приложения для <a href="https://apps.apple.com/us/app/oblique-strategies-se/id1104927011" target="_blank">iOS</a> и <a href="https://play.google.com/store/apps/details?id=com.monoloco.obliquestrategies&hl=en_US&gl=US&pli=1" target="_blank">Android</a>.
         </p>
       </div>
 
@@ -149,9 +177,9 @@
       <div class="content__text-block"></div>
 
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">VЁRSTKA</footer>
 
     <!-- Раскомментируйте строчку ниже, когда вёрстка будет готова. Если вы назвали все классы. как нужно, переключатель темы будет работать -->
-    <!-- <script src="./scripts/theme-changer.js"></script> -->
+    <script src="./scripts/theme-changer.js"></script>
   </body>
 </html>

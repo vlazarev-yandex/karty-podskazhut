@@ -1,7 +1,7 @@
 .heading {
     text-align: center;
     font-family: "STIX Two Text";
-    font-size: 30px;
+    font-size: var(--subtitle-font-size);
     font-style: normal;
     font-weight: 600;
     line-height: 90%; /* 27px */
