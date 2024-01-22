@@ -264,8 +264,9 @@ a:focus-visible {
   margin-block-end: 1.5em;
 }
 
-.content__paragraph link {
-  color: inherit;
+/* Пришлось всё-таки оставить так, потому что не получается перебить «a:-webkit-link»: если прописать параметры цвета классу link, то срабатывает webkit-правило */
+.content__paragraph a { 
+  color: inherit !important;
 }
 
 .content__blockquote {
